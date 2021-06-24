@@ -1,0 +1,11 @@
+.input {
+    margin: 0 auto;
+}
+
+.input label {
+    display: block;
+}
+
+.input input {
+    width: 100%;
+}
