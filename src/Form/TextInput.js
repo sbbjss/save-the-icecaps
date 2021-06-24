@@ -1,8 +1,8 @@
-import styles from './Input.module.css';
+import styles from './TextInput.module.css';
 
-const Input = (props) => {
+const TextInput = (props) => {
 
-    const {id, type, value, onChange, children, className} = props;
+    const {id, type, min, value, onChange, children, className} = props;
 
     return (
         <div className={`${styles.input} ${className}`}>
@@ -10,12 +10,13 @@ const Input = (props) => {
             <input
                 id={id}
                 type={type}
+                min={min}
                 value={value}
                 onChange={onChange}
                 className={className}
             />
         </div>
-    )
-}
+    );
+};
 
-export default Input;
+export default TextInput;
