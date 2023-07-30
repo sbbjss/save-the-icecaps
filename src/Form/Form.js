@@ -252,7 +252,7 @@ const Form = () => {
                                 defaultChecked={agreementChecked}
                                 onChange={() => setAgreementChecked(!agreementChecked)}
                             />
-                            I agree to <a href="#">Save The Icecaps terms and conditions</a>
+                            I agree to <a>Save The Icecaps terms and conditions</a>
                         </label>
                         <Button type="submit">Subscribe</Button>
                     </div>
